@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --fonte1: "Lilita One", sans-serif;
+    --fonte2: "Josefin Sans", sans-serif;
+}
+
+body {
+    background-color: rgb(40, 43, 48);
+    font: normal 15pt Arial;
+    text-align: center;
+}
+
+header {
+    font-family: var(--fonte2);
+    font-size: 1.2em;
+
+}
+
+section {
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 40px;
+    max-width: 600px;
+    min-width: 50px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.178);
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 300px;
+    border-radius: 200px;
+}
+
+footer {
+    font-style: italic;
+}
